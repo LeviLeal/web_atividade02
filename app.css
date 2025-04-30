@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 0.1%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+header p a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.nav-pages {
+    text-decoration: none;
+    color: black;
+    border-top-right-radius: 5px;
+    border-top-left-radius:  5px;
+    padding: 1%;
+    transition: 1s;
+    color: white;
+    background-color: rgb(255, 196, 0);
+}
+
+.nav-pages:hover {
+    transition: 500ms;
+    background-color: rgb(137, 163, 255);
+}
+
+.post {
+    width: 50%;
+    margin: 5% auto 5% auto;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .post {
+        width: 90%;
+    }
+}
+
+figure {
+    margin: 0;
+}
+
+footer {
+    background-color: black;
+    padding: 1%;
+    color: white;
+    text-align: center;
+}
